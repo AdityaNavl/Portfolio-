@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="stylesheet" href="index.css">
+    <title>Aditya Portfolio</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+            </div>
+            <div class="nav-links">
+                <a href="#home">
+                    <i class="fas fa-home"></i>
+                    Home
+                </a>
+                <a href="#about">
+                    <i class="fas fa-user"></i>
+                    About
+                </a>
+                <a href="#skills">
+                    <i class="fas fa-code"></i>
+                    Skills
+                </a>
+                <a href="#work">
+                    <i class="fas fa-project-diagram"></i>
+                    Work
+                </a>
+                <a href="#contact">
+                    <i class="fas fa-envelope"></i>
+                    Contact Us
+                </a>
+            </div>
+            <button class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+    <header id="home" class="header">
+        <div class="header-content">
+            <div class="header-text">
+                <h1>Hello, I'm Aditya,</h1>
+                <p>
+                    Full Stack Developer (MERN) | React.js • Node.js • Express.js • MongoDB • JavaScript | MCA ’27 | Open to Software Developer Opportunities
+                </p>
+                <a href="#contact" class="cta-btn">Get In Touch</a>
+            </div>
+        </div>
+    </header>
+    <section id="about">
+        <div class="about-content">
+            <div class="profile-img">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAulBMVEUAAAD6+/0f49f///8e49ke5NY40MX7+/sXGBpzc3Pf39/q6usb6NvBwcHt7e329vbQ0NCurq5ra2wmJiaWlpZHR0eHh4dUVFQ8PDwZFxzY2dkdHR4SEhJCQkMuLi6ioqJhYWK3t7cQBQwOHxw/rqEiW1QygHgu5tFFtqIzv7U2jYAfQkETJCQ1pJo1s60ZMDMucmsULSkcOTk6mpUYNCsPGRkxy8cnZ2U1jok2ra8iT00rzrwgUEgmXl6IkzRIAAAGg0lEQVR4nO1a21riOhi1adJySCliKQ6g1BnFqQiDuHXYzvb9X2vnUNqkSU+M0JusuZjvCzQs/66u/5BeXBgYGBgYGBgYGBgYGBgYGBgYGBicHJ35twSdzve2yXD8uH93BDy0zYdh+QgRAhwI459sMYraJRVjTgpCSFk90bWu7YdtclpRLiAhBRF8potT2/bHLZJa4wMrSgxv6FrkW5bda4/TL4fcuwMrhOCWLl7aFmG1aI3UMlM5IQWcF7poMdijtkjFOONE7t6arnVtTqp/1Q6nD5wJioZqRxeHVhIqrx1SayxyAjFdm/gJKdcO2uC0c0B69yBEIJM5hz9pgdSWPHmpm0PgsLvnp5wse9gCKeLmaagQwK90rZsFirC6PDunfzBISRELxR900RNJWe7ZfUGWOZRlnoTKvz4Hk2jhTfmfT9xctAO4pIuBFKiT+8Js0g28gU3BbXEpGicAzi+6KAfqtOkmWgx7lBD/nSlbi5HonNzNL+w8Kdf9+nphPibx6dsHPpwUK5ZWWCIFmcyV20frha9NN5PAy+Ij/EyHfvgq3T3szPk1Q5XVV/mCJj7Zj9zRb7z8wY9CKQWWh0sH6gXdv+bTYfGx9ISYSthvbBHMUgypX1aH60eK1q3B38jqZhTcTQvik4HXlLFoUhBusl1C9QZOj+Mzm4QkPn4VIfoLLPfvZD+AYmulkdVR9ULXrwxQ+gMzesGr5Ob4/U3Y7LavGkN0BCl1m0JOzKJf3oFE6knabWK7+asGzTlNanOyLC5zKVCCzDk0bnXXmNRd/UD1mR/Fsknd5zf0VFZN29Obfu048VS2yoo7InIAf+d3nKt6sG+bkVIf4iK4LitF9hiAtDMGyHlWtlTdyh52GpHqNZW5gzIzJya61+ypkVWjdDOu6QUEfiJzsS0GeZlzaGQVNSB1WW2YrIryFiFvTzYwvXvkfxxrd1Xdyu7Xl9V1mcxZePo9L5jM5ocLdpJHQbzV7ztRN6vf3XS1gXJdFp7BcBFGuTp7L/kB5AMEDTSyqu0LU5UUC8/UCyLdA/PiyA3Da+HOiqxcP6rH6Tpf6hNCJDyjwjbkN5QaBlQ85tTIqubYKidzdxHNyy+IJVIFMueYqG5Vyxdu8yZV1ajtEJBILcu+rJFVnfY0L/MkuRXjCQMxxRTKnEPJqrVCpYix4qrnGKSkSNZTc7GM2SD/Rx8TqarndgthqilImqyqaX4uXdjDWQ1SmrKldNy8EYZ3hJ1TvvlslHuO6jbMSjq2e8V/zQoCJHQxxTK/GYWXQ7Xmd2sFilQZ+dq1TFZ7qSsGji4XX0ULr9d3dUV//UTTIB08O5IfwLX88fUoXLDwFDUhDebYaqLxb/TffBCbYlJKfR4+mF9FwZCHRwm8KIwGdYLSahfJapORYiUnW4yIetiMyHLpvzJSTeZCGl/Qdh87J23WqTNgVnKGdVrYZNdGdbrqC1pZ7RGAQm3Oxj9ztSEu5NRsWnylkZU6BP+Ry8X/0sVxmYhypBqOX240wy7lS58IicN8XnLW7xmtBjLnqNPU3oslZ+Lmtw16xubTs+qmdiV5FOLD/Po9o2U3H1/PfZWV7FaSm5P7x6acDWR+zJSqqziMPEN9e5dkDticLF9MFxGiPUh0BKmLhRoqcTT/gOWSM39mVczHHUy9cFwzFeehtu+irDa54R1d65QOtpjL9y6D4iakBibqZNdPM+iKHlwLpRTLxWGRSSU9bDhuNtXQQTND7R8+28vdHi85PR0pGqDeXTgqSOqNoUk3iazm7yIpBGPaX1zZ0sPBmuoB6fG/9uTjNl/np7L6kKq7pOQMMlLJDCTojiu6oSOgTiUsi32wkaeciK7NeoQUHzqQ5ys43Ymx8oxzVe0ckVMy5bzmJ20DLzxFfETkLZrfPnnSgpJhfnjS+AjIz/X4wYojnMQQD43fqrb5YshlKK8VPsR3f1BJZ3UySPWCzW7PRkgx9OWtcweKWJKQbrjMV9IZNgDrqi1OgChzRH7+tMTCjJrETBnmnwNBmj0SmYvGCXGsDvPPgLRD4UnmQzpwTDqr8+OQbvg8fi1Xd6B8TnY6JL7Ajul20jgY4U3VxSeD8LbfMjv0YDIvGOafA7Sm5A2pPGlBf1qROcfET9rs/7D4imLymlRbCH1+HL2W3lCEUHtmdTZE7ObNY+GlFggey4b558PWkfBZfcU58P1bJ8NpizkDAwMDAwMDAwMDAwMDAwMDAwMDiv8BnlZdlKhVuS0AAAAASUVORK5CYII=" alt="Aditya's profile picture">
+            </div>
+            <div class="about-text">
+                <h2 class="section-title">
+                    About Me
+                    <p>🚀 I'm an aspiring Full Stack (MERN) Developer currently pursuing my MCA (2027), with a strong interest in building scalable, user-friendly, and high-performance web applications. My technical expertise includes JavaScript, React.js, Node.js, Express.js, MongoDB, HTML5, CSS3, Git, REST APIs, and responsive web development, and I enjoy solving real-world problems through clean, efficient, and maintainable software solutions. Alongside this, I serve as a Team Leader at The Prime Today Media, where I handle client communication, business development, and project coordination — experience that has strengthened my leadership, communication, and problem-solving skills alongside my technical growth.</p>
+                    <p>I continuously sharpen my skills by building projects, exploring modern development practices, and learning cloud technologies like AWS. I'm actively seeking opportunities as a Software Developer, Full Stack (MERN) Developer, React Developer, or Node.js Developer, where I can contribute, learn from experienced professionals, and grow as a software engineer. Let's connect to discuss software development, technology, and career opportunities!</p>
+                    
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="skills-content"></div>
+        <h2 class="section-title">My Skills</h2>
+        <div class="skill-grid">
+            <div class="skills-card">
+                <i class="fa-brands fa-square-js"></i>
+                <H3>JavaScript</H3>
+                <p>Expert in modern Js, Including ES6+ features</p>
+            </div>
+
+            <div class="skills-card">
+                <i class="fab fa-react"></i>
+                <H3>React</H3>
+                <p>Building scalable application with React and Redux</p>
+            </div>
+
+            <div class="skills-card">
+                <i class="fa-brands fa-node"></i>
+                <H3>Node Js</H3>
+                <p>Server side development with Node.js and Express</p>
+            </div>
+
+            <div class="skills-card">
+                <i class="fas fa-database"></i>
+                <H3>Database</H3>
+                <p>Experience with SQL and NoSQL Database</p>
+            </div>
+            
+        </div>  
+    </section>
+
+    <section id="works" class="works">
+        <div class="work-section">
+            <h2 class="section-title">
+                Recent Work
+                <div class="works-grid">
+                    <div class="work-card">
+                        <img src="https://cdn.dribbble.com/userupload/13201767/file/original-d92a4cac3c279cb17a03f9d2f27b6339.png?resize=2048x1536&vertical=center" alt="project1">
+                        <div class="work-info">
+                            <div>
+                                <h3>Restaurant Management System</h3>
+                                <p>Restaurant e-commerce web app with Django-based user authentication, responsive ordering UI, and built-in coding resources to support beginner learners.</p>
+
+                                <div class="work-links">
+                                    <a href="#">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Live
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="work-card">
+                        <img src="https://plus.unsplash.com/premium_photo-1682141308411-29d7662447cb?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="project2">
+                        <div class="work-info">
+                            <div>
+                                <h3>Task Management App</h3>
+                                <p>Task management app with secure user authentication, an intuitive dashboard for creating and tracking tasks, and real-time status updates to boost productivity and team collaboration.</p>
+
+                                <div class="work-links">
+                                    <a href="#">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Live
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="work-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9JYPaX_JEL2qmgKpTUidxEJHGdADtT5weLlzvdFjJ9A&s=10" alt="project3">
+                        <div class="work-info">
+                            <div>
+                                <h3>Social Media App</h3>
+                                <p>Social media web app with secure user authentication, features for creating and sharing posts, and interactive elements like likes and comments to foster user engagement and community building.</p>
+
+                                <div class="work-links">
+                                    <a href="#">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Live
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </h2>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <h3 class="section-title">Get In Touch </h3>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email">
+                </div> 
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea rows="5" id="message"></textarea>
+                </div>
+                <button class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section> 
+
+    <footer class="footer">
+        <p>&copy; 2026 _A_d_i_t_y_a_. All rights reserved</p>
+    </footer>
+
+<div class="social-links">
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/aditya-navlakhe/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://www.instagram.com/_a_d_i_t_y_a________/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
